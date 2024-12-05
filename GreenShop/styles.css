@@ -1,0 +1,135 @@
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    width: 600px;
+    height: 772px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 24px;
+    border: 1px solid #ccc;
+}
+
+.view-link {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin: 24px;
+}
+
+table {
+    width: 576px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 48px;
+                 
+}
+
+th, td {
+    padding: 0 16px;
+    height: 56px;
+}
+
+th {
+    text-align: left;
+    border-bottom: 1px solid rgba(191, 194, 201);
+}
+
+td {
+    border-bottom: 1px solid rgb(191, 194, 201);
+}
+
+td:first-child {
+    text-align: left;
+}
+
+td:first-child, th:first-child {
+    color: gray;
+}
+
+td:nth-child(2), td:nth-child(3), th:nth-child(2), th:nth-child(3) {
+    text-align: right;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.head {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto 15px;
+}
+
+h1 {
+    color: black;
+    font-size: 28px;
+    font-weight: 550;
+    margin: 5px;
+    line-height: 36px;
+}
+
+h2 {
+    color: gray;
+    font-size: 15px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.foot {
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.footer table {
+    width: 100%;
+}
+
+.footer td {
+    border: none;
+    height: 24px;
+    padding: 0;
+}
+
+.footer tr:not(:last-child) {
+    border-bottom: 4px solid transparent;
+}
+
+.footer img {
+    width: 120px;
+    height: 56px;
+}
+
+.footer .company-name {
+    font-weight: bold;
+    color: black;
+   
+}
+
+.footer .address {
+    color: gray;
+                 
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+        tfoot td:nth-child(2) {
+    font-weight: normal;
+}
+.col-1 {
+    width: 370px;
+}
+.col-2 {
+    width: 40px;
+}
+.col-3 {
+    width: 100px;
+}
